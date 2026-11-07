@@ -30,17 +30,22 @@ The user does the thinking. The agent sets up the scaffolding and reviews the re
 
 Miran has a **boss agent**: a scheduled agent that runs every evening (Mon–Sat, 9:20 PM) and
 on Sunday evening, reviews Miran's progress against `DSA_Calendar_Plan.md`, and writes the next
-day's orders to **`BOSS_ORDERS.md`** in this folder.
+day's orders to **`G:\My Drive\Miran Boss Agent\DSA_ORDERS.md`** (the boss's Google Drive
+folder on this PC). Since 2026-11-07 this folder is the GitHub repo miran786/DSA and is no
+longer on Drive; the boss can't write here, so the `BOSS_ORDERS.md` in this folder is retired.
 
-- At the start of every session, read `BOSS_ORDERS.md`. Since 2026-10-29 it sets no targets:
+- At the start of every session, read `G:\My Drive\Miran Boss Agent\DSA_ORDERS.md`. Since 2026-10-29 it sets no targets:
   Miran picks the problems. Never suggest which problem to do next or which re-solve is due
   unless Miran asks.
 - Orders set targets, priorities and focus. They **never override the Core rules above**:
   no unrequested hints, no solutions unless Miran explicitly asks.
 - The boss may also edit this file when Miran asks it to (through his INBOX) or to fix a
   clear problem. Keep its edits.
-- **Never create backup copies of this file** (no `AGENTS_old_*`). Google Drive's version
-  history and trash already keep old versions.
+- **Never create backup copies of this file** (no `AGENTS_old_*`). Git history keeps old
+  versions.
+- **Push at the end of every session.** The boss reads this repo from GitHub, so it only sees
+  pushed work. Before Miran closes, remind him to commit and push (`git add -A`,
+  `git commit -m "<problems done>"`, `git push`), or run it when he says yes.
 
 ---
 
