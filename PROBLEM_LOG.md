@@ -71,8 +71,10 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 # Summary & Revisit List
 
 ## Problems to Revisit (Needed Help)
+**⏸️ Parked until DP:**
+- Merge Sort (#5) — revisit once DP starts (was 🔴, divide-and-conquer)
+
 **🔴 Solution Given (Learn & re-implement):**
-- Merge Sort (#5) — understand divide-and-conquer
 - Search X in Sorted Array (#8) — practice binary search
 - Check Prime Number (#12) — O(√n) optimization
 - Recursive Insertion Sort (#14) — complex recursion
