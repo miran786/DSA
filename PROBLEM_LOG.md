@@ -17,7 +17,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 4 | Insertion Sort | `insertion_sort.cpp` | `void insertionSort(vector<int> &arr)` | sorting | ✅ solved — O(n²) with shifts | 🟢 | — | — |
 | 5 | Merge Sort | `merge_sort.cpp` | `void mergeSort(vector<int> &arr)` | sorting / divide-conquer | ✅ solution provided — O(n log n) | 🔴 | — | — |
 | 6 | Counting Frequencies | `counting_frequencies.cpp` | `vector<pair<int, int>> countFrequencies(vector<int> &nums)` | hashing | ✅ solved — map approach | 🟢 | — | — |
-| 7 | Highest Occurring Element | `highest_occurring_element.cpp` | `int highestOccurringElement(vector<int> &nums)` | hashing | ✅ fixed bugs — two-variable tracking (revisited 2026-10-26 — `highest_occurring_element_v2.cpp`, tie-break bug found on check, fixed after rung 1–2) | 🟡 | — | — |
+| 7 | Highest Occurring Element | `highest_occurring_element.cpp` | `int highestOccurringElement(vector<int> &nums)` | hashing | ✅ fixed bugs — two-variable tracking (revisited 2026-10-26 — `highest_occurring_element_v2.cpp`, tie-break bug found on check, fixed after rung 1–2; revisited 2026-11-08 — `highest_occurring_element_v3.cpp`, map counting) | 🟡 | — | 2026-11-08 |
 | 8 | Search X in Sorted Array | `search_in_sorted_array.cpp` | `int searchInSortedArray(vector<int> &nums, int target)` | binary-search | ✅ solution provided — binary search O(log n) | 🔴 | — | — |
 | 9 | Lower Bound | `lower_bound.cpp` | `int lowerBound(vector<int> &nums, int x)` | binary-search | ⚠️ In progress — needs fixes | ⚠️ | — | — |
 | 10 | Upper Bound | `upper_bound.cpp` | `int upperBound(vector<int> &nums, int x)` | binary-search | ✅ solved (linear scan, not binary search yet) | 🟡 | — | — |
@@ -80,7 +80,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 
 **🟡 Hints Needed (Re-solve independently):**
 - Selection Sort (#3) — algorithm correctness (revisited 2026-10-24)
-- Highest Occurring Element (#7) — logic debugging (revisited 2026-10-26)
+- Highest Occurring Element (#7) — logic debugging (revisited 2026-10-26; revisited 2026-11-08 🟡)
 - Recursive Bubble Sort (#13) — pass-by-reference
 - Print N to 1 (#16) — order of operations in recursion
 - Sum of First N (#17) — return vs. member variables
