@@ -61,6 +61,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 48 | Move Zeros to End | `move_zeros_to_end.cpp` | `void moveZerosToEnd(vector<int>& nums)` | array / two-pointer | ✅ fixed self-zeroing bug (`ptr == i`) — one pass, write pointer + zero the source slot | 🟡 | 2026-10-30 | 2026-10-30 |
 | 49 | Remove Duplicates from Sorted Array | `remove_duplicates_from_sorted_array.cpp` | `int removeDuplicates(vector<int>& nums)` | array / two-pointer | ✅ solution provided — second loop overwrote values with indices; rewritten as one-pass write pointer | 🔴 | 2026-10-31 | 2026-10-31 |
 | 50 | Find Missing Number | `find_missing_number.cpp` | `int missingNumber(vector<int> &nums)` | — | ✅ solved — expected sum minus actual sum, O(n) | 🟡 | 2026-11-01 | 2026-11-01 |
+| 51 | Isomorphic Strings | `isomorphic_strings.cpp` | `bool isomorphicString(string s, string t)` | hashing / string | ✅ fix given — one-way map only; added reverse t→s map | 🔴 | 2026-11-09 | 2026-11-09 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -75,6 +76,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Merge Sort (#5) — revisit once DP starts (was 🔴, divide-and-conquer)
 
 **🔴 Solution Given (Learn & re-implement):**
+- Isomorphic Strings (#51) — two-way mapping
 - Search X in Sorted Array (#8) — practice binary search
 - Check Prime Number (#12) — O(√n) optimization
 - Recursive Insertion Sort (#14) — complex recursion
