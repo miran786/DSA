@@ -43,6 +43,10 @@ longer on Drive; the boss can't write here, so the `BOSS_ORDERS.md` in this fold
 - `tools/dsa_status.py` prints the numbers and the next day's set for the boss, and
   `links.csv` holds each problem's place on Striver's sheet and its links. Add a `links.csv`
   row (same columns) when a problem without one is logged.
+- **Closing a problem:** `python3 tools/done.py "<problem>" <level> [--revisit] [--note "..."]`
+  fills the `PROBLEM_LOG.md` row (Done date, Status, Level; a revisit adds `(revisited YYYY-MM-DD)`),
+  commits only the log and that problem's `.cpp`, pushes, and ticks the Google Task. Miran gives the
+  Level; never pick one for him. `--dry-run` shows the change first.
 - Orders set targets, priorities and focus. They **never override the Core rules above**:
   no unrequested hints, no solutions unless Miran explicitly asks.
 - The boss may also edit this file when Miran asks it to (through his INBOX) or to fix a
