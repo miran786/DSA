@@ -1,3 +1,11 @@
 *.exe
 __pycache__/
 *.py[cod]
+# Mac build output: clang writes extensionless binaries and .dSYM folders.
+# Ignore extensionless files in the repo root; keep folders and files with an extension.
+/*
+!/*.*
+!/*/
+*.dSYM/
+*.out
+.DS_Store

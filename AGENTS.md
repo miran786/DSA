@@ -30,13 +30,19 @@ The user does the thinking. The agent sets up the scaffolding and reviews the re
 
 Miran has a **boss agent**: a scheduled agent that runs every evening (Mon–Sat, 9:20 PM) and
 on Sunday evening, reviews Miran's progress against `DSA_Calendar_Plan.md`, and writes the next
-day's orders to **`G:\My Drive\Miran Boss Agent\DSA_ORDERS.md`** (the boss's Google Drive
-folder on this PC). Since 2026-11-07 this folder is the GitHub repo miran786/DSA and is no
+day's orders to `DSA_ORDERS.md` in the boss's Google Drive folder. On the Mac (Miran's
+machine since Nov 10, 2026) that is
+**`~/Library/CloudStorage/GoogleDrive-miran786mj@gmail.com/My Drive/Miran Boss Agent/DSA_ORDERS.md`**;
+on the Windows PC it is `G:\My Drive\Miran Boss Agent\DSA_ORDERS.md`. Since 2026-11-07 this folder is the GitHub repo miran786/DSA and is no
 longer on Drive; the boss can't write here, so the `BOSS_ORDERS.md` in this folder is retired.
 
-- At the start of every session, read `G:\My Drive\Miran Boss Agent\DSA_ORDERS.md`. Since 2026-10-29 it sets no targets:
-  Miran picks the problems. Never suggest which problem to do next or which re-solve is due
-  unless Miran asks.
+- At the start of every session, read `DSA_ORDERS.md` (path above). Since 2026-11-03 the boss
+  picks the day's problems (since 2026-11-10: 1 new + 1 revisit on weekdays, up to 2 revisits
+  on Saturdays, none on Sundays). When Miran asks, set up the files for the problems it names.
+  Don't pick other problems or re-solves yourself unless Miran asks.
+- `tools/dsa_status.py` prints the numbers and the next day's set for the boss, and
+  `links.csv` holds each problem's place on Striver's sheet and its links. Add a `links.csv`
+  row (same columns) when a problem without one is logged.
 - Orders set targets, priorities and focus. They **never override the Core rules above**:
   no unrequested hints, no solutions unless Miran explicitly asks.
 - The boss may also edit this file when Miran asks it to (through his INBOX) or to fix a
@@ -249,10 +255,19 @@ does it in O(1) space — worth trying."* Then stop. Let them implement it.
 - **One file per problem**, named after the problem in `snake_case`: `palindrome.cpp`,
   `two_sum.cpp`, `move_zeroes.cpp`
 - Never overwrite an existing problem file to start a new problem — create a new one.
-- `.exe` files are compiler output — safe to delete, never commit-worthy.
+- Compiler output is never commit-worthy: `.exe` files on Windows, extensionless binaries and
+  `.dSYM` folders on the Mac. `.gitignore` covers both; safe to delete.
 - Update the **Problem Log** in `PROBLEM_LOG.md` every time a new file is created.
 
-### Compiling (Windows / PowerShell)
+### Compiling
+
+On the Mac (zsh; `-I.` picks up the local `bits/stdc++.h`, which Apple's compiler lacks):
+
+```bash
+g++ -std=c++17 -I. palindrome.cpp -o palindrome && ./palindrome
+```
+
+On Windows (PowerShell), the alternative:
 
 ```powershell
 g++ palindrome.cpp -o palindrome.exe
@@ -270,8 +285,8 @@ Every row in `PROBLEM_LOG.md` carries two dates, always in `YYYY-MM-DD` format:
   given). Leave it as `—` while the problem is still in progress.
 
 Rules:
-- Get today's date from the system (`Get-Date -Format yyyy-MM-dd` in PowerShell, or
-  `date +%F`) — never guess or copy a date from an older row.
+- Get today's date from the system (`date +%F` on the Mac, or
+  `Get-Date -Format yyyy-MM-dd` in PowerShell) — never guess or copy a date from an older row.
 - When a problem moves to solved, fill **Done** and update Status / Level in the same edit.
 - When the user re-solves a problem from the revisit list, add `(revisited YYYY-MM-DD)`
   to its Status cell and to its line in the revisit list. Keep the original dates.
