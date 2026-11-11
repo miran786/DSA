@@ -62,6 +62,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 49 | Remove Duplicates from Sorted Array | `remove_duplicates_from_sorted_array.cpp` | `int removeDuplicates(vector<int>& nums)` | array / two-pointer | ✅ solution provided — second loop overwrote values with indices; rewritten as one-pass write pointer | 🔴 | 2026-10-31 | 2026-10-31 |
 | 50 | Find Missing Number | `find_missing_number.cpp` | `int missingNumber(vector<int> &nums)` | — | ✅ solved — expected sum minus actual sum, O(n) | 🟡 | 2026-11-01 | 2026-11-01 |
 | 51 | Isomorphic Strings | `isomorphic_strings.cpp` | `bool isomorphicString(string s, string t)` | hashing / string | ✅ fix given — one-way map only; added reverse t→s map | 🔴 | 2026-11-09 | 2026-11-09 |
+| 52 | Reverse Every Word in a String | `reverse_words_in_string.cpp` | `string reverseWords(string s)` | string / two-pointer | ✅ solved — solved with hints; fixed trailing/empty-word space and first-word start index | 🟡 | 2026-11-11 | 2026-11-11 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -83,6 +84,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Fibonacci Number (#19) — two recursive calls pattern
 
 **🟡 Hints Needed (Re-solve independently):**
+- Reverse Every Word in a String (#52) — solved with hints; fixed trailing/empty-word space and first-word start index
 - Selection Sort (#3) — algorithm correctness (revisited 2026-10-24)
 - Highest Occurring Element (#7) — logic debugging (revisited 2026-10-26; revisited 2026-11-08 🟡)
 - Recursive Bubble Sort (#13) — pass-by-reference
