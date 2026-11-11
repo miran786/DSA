@@ -23,7 +23,7 @@ class Solution {
       }
       return highest_element;
 
-    }   
+    }
 };
 
 void run(Solution &obj, vector<int> nums, int expected) {

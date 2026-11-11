@@ -4,16 +4,9 @@
         {
             "type": "shell",
             "label": "C/C++: Build and Run",
-            "command": "cmd",
-            "args": [
-                "/c",
-                "g++ -fdiagnostics-color=always -g ${file} -o ${fileDirname}\\${fileBasenameNoExtension}.exe && ${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
+            "command": "g++ -std=c++17 -I${workspaceFolder} -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\"",
             "options": {
                 "cwd": "${fileDirname}"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
             },
             "group": {
                 "kind": "build",
@@ -23,7 +16,7 @@
                 "echo": true,
                 "reveal": "always",
                 "focus": true,
-                "panel": "new"
+                "panel": "shared"
             },
             "problemMatcher": [],
             "detail": "Build and run active C++ file"
