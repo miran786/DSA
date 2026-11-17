@@ -65,6 +65,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 52 | Reverse Every Word in a String | `reverse_words_in_string.cpp` | `string reverseWords(string s)` | string / two-pointer | ✅ solved — solved with hints; fixed trailing/empty-word space and first-word start index | 🟡 | 2026-11-11 | 2026-11-11 |
 | 53 | Valid Anagram | `valid_anagram.cpp` | `bool isAnagram(string s, string t)` | hashing / string | ✅ solved | 🟢 | 2026-11-13 | 2026-11-13 |
 | 54 | Longest Consecutive Sequence | `longest_consecutive_sequence.cpp` | `int longestConsecutive(vector<int> &nums)` | hashing / sequence | ⏳ In progress — file ready | — | 2026-11-13 | — |
+| 55 | Sort Characters by Frequency | `sort_characters_by_frequency.cpp` | `vector<char> frequencySort(string s)` | hashing / sorting | ⏳ In progress — file ready | — | 2026-11-17 | — |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
