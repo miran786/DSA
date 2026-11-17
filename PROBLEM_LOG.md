@@ -61,7 +61,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 48 | Move Zeros to End | `move_zeros_to_end.cpp` | `void moveZerosToEnd(vector<int>& nums)` | array / two-pointer | ✅ fixed self-zeroing bug (`ptr == i`) — one pass, write pointer + zero the source slot | 🟡 | 2026-10-30 | 2026-10-30 |
 | 49 | Remove Duplicates from Sorted Array | `remove_duplicates_from_sorted_array.cpp` | `int removeDuplicates(vector<int>& nums)` | array / two-pointer | ✅ solution provided — second loop overwrote values with indices; rewritten as one-pass write pointer (revisited 2026-11-14 — `remove_duplicates_from_sorted_array_v2.cpp`, 🟢) | 🟢 | 2026-10-31 | 2026-10-31 |
 | 50 | Find Missing Number | `find_missing_number.cpp` | `int missingNumber(vector<int> &nums)` | — | ✅ solved — expected sum minus actual sum, O(n) | 🟡 | 2026-11-01 | 2026-11-01 |
-| 51 | Isomorphic Strings | `isomorphic_strings.cpp` | `bool isomorphicString(string s, string t)` | hashing / string | ✅ fix given — one-way map only; added reverse t→s map | 🔴 | 2026-11-09 | 2026-11-09 |
+| 51 | Isomorphic Strings | `isomorphic_strings.cpp` | `bool isomorphicString(string s, string t)` | hashing / string | ✅ fix given — one-way map only; added reverse t→s map (revisited 2026-11-17 — `isomorphic_strings.cpp`, 🟢) | 🟢 | 2026-11-09 | 2026-11-09 |
 | 52 | Reverse Every Word in a String | `reverse_words_in_string.cpp` | `string reverseWords(string s)` | string / two-pointer | ✅ solved — solved with hints; fixed trailing/empty-word space and first-word start index | 🟡 | 2026-11-11 | 2026-11-11 |
 | 53 | Valid Anagram | `valid_anagram.cpp` | `bool isAnagram(string s, string t)` | hashing / string | ✅ solved | 🟢 | 2026-11-13 | 2026-11-13 |
 | 54 | Longest Consecutive Sequence | `longest_consecutive_sequence.cpp` | `int longestConsecutive(vector<int> &nums)` | hashing / sequence | ⏳ In progress — file ready | — | 2026-11-13 | — |
@@ -79,7 +79,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Merge Sort (#5) — revisit once DP starts (was 🔴, divide-and-conquer)
 
 **🔴 Solution Given (Learn & re-implement):**
-- Isomorphic Strings (#51) — two-way mapping
+- Isomorphic Strings (#51) — two-way mapping (revisited 2026-11-17 🟢)
 - Search X in Sorted Array (#8) — practice binary search
 - Check Prime Number (#12) — O(√n) optimization
 - Recursive Insertion Sort (#14) — complex recursion
