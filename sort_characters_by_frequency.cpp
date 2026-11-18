@@ -4,14 +4,18 @@ using namespace std;
 class Solution {
   public:
     vector<char> frequencySort(string s) {
-        map <char,int> freq;
+        vector<int> freq(256, 0);
         string ans;
-        for(char i : s)
+        for(unsigned char i : s)
         {
             freq[i]++;
         }
-        
-        vector<pair<char,int>> order(freq.begin(), freq.end());
+
+        vector<pair<char,int>> order;
+        for(int c = 0; c < 256; c++)
+        {
+            if(freq[c] > 0) { order.push_back({(char)c, freq[c]}); }
+        }
 
         sort(order.begin(), order.end(), [](const pair<char,int>& a, const pair<char,int>& b) {
             if (a.second != b.second) { return a.second > b.second; }
