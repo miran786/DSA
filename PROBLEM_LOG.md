@@ -67,6 +67,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 54 | Longest Consecutive Sequence | `longest_consecutive_sequence.cpp` | `int longestConsecutive(vector<int> &nums)` | hashing / sequence | ⏳ In progress — file ready | — | 2026-11-13 | — |
 | 55 | Sort Characters by Frequency | `sort_characters_by_frequency.cpp` | `vector<char> frequencySort(string s)` | hashing / sorting | ⏳ In progress — file ready | — | 2026-11-17 | — |
 | 56 | Longest Palindromic Substring | `longest_palindromic_substring.cpp` | `string longestPalindrome(string s)` | string | ⏳ In progress — file ready | — | 2026-11-18 | — |
+| 57 | Sort Characters by Frequency (v2) | `sort_characters_by_frequency_v2.cpp` | `vector<char> frequencySort(string s)` | hashing / sorting | ✅ solved | 🔴 | 2026-11-19 | 2026-11-19 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -81,6 +82,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Merge Sort (#5) — revisit once DP starts (was 🔴, divide-and-conquer)
 
 **🔴 Solution Given (Learn & re-implement):**
+- Sort Characters by Frequency (v2) (#57) — re-solve from a blank file
 - Isomorphic Strings (#51) — two-way mapping (revisited 2026-11-17 🟢)
 - Search X in Sorted Array (#8) — practice binary search
 - Check Prime Number (#12) — O(√n) optimization
