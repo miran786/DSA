@@ -69,7 +69,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 56 | Longest Palindromic Substring | `longest_palindromic_substring.cpp` | `string longestPalindrome(string s)` | string | ⏳ In progress — file ready | — | 2026-11-18 | — |
 | 57 | Sort Characters by Frequency (v2) | `sort_characters_by_frequency_v2.cpp` | `vector<char> frequencySort(string s)` | hashing / sorting | ✅ solved | 🔴 | 2026-11-19 | 2026-11-19 |
 | 58 | Traversal in Linked List | `traversal_in_linked_list.cpp` | `vector<int> traverseLinkedList(Node* head)` | linked-list / traversal | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
-| 59 | Middle of a Linked List | `middle_of_linked_list.cpp` | `Node* middleNode(Node* head)` | linked-list / two-pointer | ⏳ In progress — file ready | — | 2026-11-21 | — |
+| 59 | Middle of a Linked List | `middle_of_linked_list.cpp` | `Node* middleNode(Node* head)` | linked-list / two-pointer | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -92,6 +92,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Fibonacci Number (#19) — two recursive calls pattern
 
 **🟡 Hints Needed (Re-solve independently):**
+- Middle of a Linked List (#59) — re-solve from a blank file
 - Traversal in Linked List (#58) — re-solve from a blank file
 - Reverse Every Word in a String (#52) — solved with hints; fixed trailing/empty-word space and first-word start index (revisit started 2026-11-19 — `reverse_words_in_string_v2.cpp`)
 - Selection Sort (#3) — algorithm correctness (revisited 2026-10-24)
