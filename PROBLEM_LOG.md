@@ -70,6 +70,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 57 | Sort Characters by Frequency (v2) | `sort_characters_by_frequency_v2.cpp` | `vector<char> frequencySort(string s)` | hashing / sorting | ✅ solved | 🔴 | 2026-11-19 | 2026-11-19 |
 | 58 | Traversal in Linked List | `traversal_in_linked_list.cpp` | `vector<int> traverseLinkedList(Node* head)` | linked-list / traversal | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
 | 59 | Middle of a Linked List | `middle_of_linked_list.cpp` | `Node* middleNode(Node* head)` | linked-list / two-pointer | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
+| 60 | Delete Head of Linked List | `delete_head_of_linked_list.cpp` | `ListNode* deleteHead(ListNode* &head)` | linked-list | ⏳ In progress — file ready | — | 2026-11-22 | — |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
