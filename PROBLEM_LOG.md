@@ -71,6 +71,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 58 | Traversal in Linked List | `traversal_in_linked_list.cpp` | `vector<int> traverseLinkedList(Node* head)` | linked-list / traversal | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
 | 59 | Middle of a Linked List | `middle_of_linked_list.cpp` | `Node* middleNode(Node* head)` | linked-list / two-pointer | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
 | 60 | Delete Head of Linked List | `delete_head_of_linked_list.cpp` | `ListNode* deleteHead(ListNode* &head)` | linked-list | ⏳ In progress — file ready | — | 2026-11-22 | — |
+| 61 | Reverse a Linked List | `reverse_linked_list.cpp` | `ListNode* reverseList(ListNode* head)` | linked-list / iterative | ✅ solved — knew the logic, couldn't write the code | 🔴 | 2026-11-23 | 2026-11-23 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -85,6 +86,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Merge Sort (#5) — revisit once DP starts (was 🔴, divide-and-conquer)
 
 **🔴 Solution Given (Learn & re-implement):**
+- Reverse a Linked List (#61) — knew the logic, couldn't write the code
 - Sort Characters by Frequency (v2) (#57) — re-solve from a blank file
 - Isomorphic Strings (#51) — two-way mapping (revisited 2026-11-17 🟢)
 - Search X in Sorted Array (#8) — practice binary search
