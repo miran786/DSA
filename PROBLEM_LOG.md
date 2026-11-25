@@ -72,6 +72,8 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 59 | Middle of a Linked List | `middle_of_linked_list.cpp` | `Node* middleNode(Node* head)` | linked-list / two-pointer | ✅ solved | 🟡 | 2026-11-21 | 2026-11-21 |
 | 60 | Delete Head of Linked List | `delete_head_of_linked_list.cpp` | `ListNode* deleteHead(ListNode* &head)` | linked-list | ⏳ In progress — file ready | — | 2026-11-22 | — |
 | 61 | Reverse a Linked List | `reverse_linked_list.cpp` | `ListNode* reverseList(ListNode* head)` | linked-list / iterative | ✅ solved — knew the logic, couldn't write the code | 🔴 | 2026-11-23 | 2026-11-23 |
+| 62 | Reverse a Linked List (recursive) | `reverse_linked_list_recursive.cpp` | `ListNode* reverseList(ListNode* head)` | linked-list / recursion | ⏳ In progress — file ready | — | 2026-11-24 | — |
+| 63 | Deletion of the Tail of Linked List | `delete_tail_of_linked_list.cpp` | `ListNode* deleteTail(ListNode* head)` | linked-list | ✅ solved | 🟡 | 2026-11-25 | 2026-11-25 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -95,6 +97,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Fibonacci Number (#19) — two recursive calls pattern
 
 **🟡 Hints Needed (Re-solve independently):**
+- Deletion of the Tail of Linked List (#63) — re-solve from a blank file
 - Middle of a Linked List (#59) — re-solve from a blank file
 - Traversal in Linked List (#58) — re-solve from a blank file
 - Reverse Every Word in a String (#52) — solved with hints; fixed trailing/empty-word space and first-word start index (revisit started 2026-11-19 — `reverse_words_in_string_v2.cpp`)
