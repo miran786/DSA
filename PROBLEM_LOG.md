@@ -74,6 +74,7 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 | 61 | Reverse a Linked List | `reverse_linked_list.cpp` | `ListNode* reverseList(ListNode* head)` | linked-list / iterative | ✅ solved — knew the logic, couldn't write the code | 🔴 | 2026-11-23 | 2026-11-23 |
 | 62 | Reverse a Linked List (recursive) | `reverse_linked_list_recursive.cpp` | `ListNode* reverseList(ListNode* head)` | linked-list / recursion | ⏳ In progress — file ready | — | 2026-11-24 | — |
 | 63 | Deletion of the Tail of Linked List | `delete_tail_of_linked_list.cpp` | `ListNode* deleteTail(ListNode* head)` | linked-list | ✅ solved | 🟡 | 2026-11-25 | 2026-11-25 |
+| 64 | Deletion of the Kth Element of Linked List | `delete_kth_node_of_linked_list.cpp` | `ListNode* deleteKthNode(ListNode* head, int k)` | linked-list | ✅ solved | 🟢 | 2026-11-26 | 2026-11-26 |
 
 <!-- Add a row here every time a new problem file is created. Fill "Started" with today's date (YYYY-MM-DD); fill "Done" when it's solved. -->
 
@@ -112,6 +113,6 @@ Miran's DSA problem log. Rules for filling it in (dates, Status, Level) are in `
 - Upper Bound (#10) — not started yet
 
 ## Strengths (Solved Alone 🟢)
-✅ Palindrome, Bubble Sort, Insertion Sort, Counting Frequencies, Print All Divisors, Print 1 to N, Factorial, Valid Anagram
+✅ Palindrome, Bubble Sort, Insertion Sort, Counting Frequencies, Print All Divisors, Print 1 to N, Factorial, Valid Anagram, Deletion of the Kth Element of Linked List
 
 ---
